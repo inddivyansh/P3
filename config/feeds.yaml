@@ -1,0 +1,490 @@
+feeds:
+- name: Press Information Bureau — Defence
+  url: https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&reg=48
+  category: Defence
+  priority: high
+  tags:
+  - official
+  - government
+  - defence
+  enabled: true
+- name: Press Information Bureau — External Affairs
+  url: https://www.pib.gov.in/RssMain.aspx?ModId=4&Lang=1&reg=48
+  category: Geopolitics
+  priority: high
+  tags:
+  - official
+  - government
+  - foreign-policy
+  enabled: false
+- name: Press Information Bureau — Home Affairs
+  url: https://www.pib.gov.in/RssMain.aspx?ModId=5&Lang=1&reg=48
+  category: National Security
+  priority: high
+  tags:
+  - official
+  - government
+  - internal-security
+  enabled: false
+- name: Ministry of External Affairs
+  url: https://www.mea.gov.in/rss/index.xml
+  category: Geopolitics
+  priority: high
+  tags:
+  - official
+  - foreign-policy
+  - diplomacy
+  enabled: false
+- name: Press Information Bureau — All
+  url: https://www.pib.gov.in/RssMain.aspx?ModId=1&Lang=1&reg=48
+  category: National Affairs
+  priority: high
+  tags:
+  - official
+  - government
+  enabled: false
+- name: Indian Defence Review
+  url: https://indiandefencereview.com/category/defense-industry/feed/
+  category: Defence
+  priority: high
+  tags:
+  - defence
+  - military
+  - strategy
+  enabled: true
+- name: Defence Research and Development Organisation (DRDO)
+  url: https://drdo.gov.in/drdo/en/documents/press-release
+  category: Defence Technology
+  priority: high
+  tags:
+  - official
+  - defence-technology
+  - research
+  enabled: false
+- name: The Print — Defence
+  url: https://theprint.in/defence/feed/
+  category: Defence
+  priority: high
+  tags:
+  - defence
+  - military
+  - india
+  enabled: false
+- name: Economic Times — Defence
+  url: https://economictimes.indiatimes.com/news/defence/rss.cms
+  category: Defence
+  priority: high
+  tags:
+  - defence
+  - procurement
+  - india
+  enabled: false
+- name: Financial Express — Defence
+  url: https://www.financialexpress.com/defence/feed/
+  category: Defence
+  priority: high
+  tags:
+  - defence
+  - procurement
+  - technology
+  enabled: false
+- name: India Today — War & Conflict
+  url: https://www.indiatoday.in/rss/1206519
+  category: Defence
+  priority: high
+  tags:
+  - defence
+  - conflict
+  - india
+  enabled: true
+- name: NDTV — India News (Security Relevant)
+  url: https://feeds.feedburner.com/ndtvnews-india-news
+  category: National Affairs
+  priority: medium
+  tags:
+  - india
+  - national
+  - security
+  enabled: true
+- name: ANI — National
+  url: https://www.aninews.in/rss/national.xml
+  category: National Affairs
+  priority: medium
+  tags:
+  - india
+  - national
+  - military
+  enabled: false
+- name: ANI — World
+  url: https://www.aninews.in/rss/world.xml
+  category: Geopolitics
+  priority: medium
+  tags:
+  - international
+  - geopolitics
+  enabled: false
+- name: Deccan Herald — National
+  url: https://www.deccanherald.com/rss/national.rss
+  category: National Affairs
+  priority: medium
+  tags:
+  - india
+  - national
+  enabled: false
+- name: Defense News
+  url: https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml
+  category: Defence
+  priority: high
+  tags:
+  - defence
+  - global
+  - military
+  - procurement
+  enabled: true
+- name: The Defense Post
+  url: https://thedefensepost.com/feed/
+  category: Defence
+  priority: high
+  tags:
+  - defence
+  - military
+  - global
+  enabled: false
+- name: Defense One
+  url: https://www.defenseone.com/rss/all/
+  category: Defence
+  priority: high
+  tags:
+  - defence
+  - technology
+  - strategy
+  enabled: true
+- name: Breaking Defense
+  url: https://breakingdefense.com/feed/
+  category: Defence
+  priority: high
+  tags:
+  - defence
+  - technology
+  - procurement
+  - strategy
+  enabled: true
+- name: Jane's Defense Weekly (Public)
+  url: https://www.janes.com/?feed=rss2
+  category: Defence
+  priority: high
+  tags:
+  - defence
+  - intelligence
+  - military
+  enabled: false
+- name: SIPRI — Latest
+  url: https://www.sipri.org/rss
+  category: Defence
+  priority: high
+  tags:
+  - defence
+  - arms
+  - disarmament
+  - security
+  enabled: false
+- name: War on the Rocks
+  url: https://warontherocks.com/feed/
+  category: Strategic Affairs
+  priority: high
+  tags:
+  - strategy
+  - geopolitics
+  - military
+  - analysis
+  enabled: true
+- name: The National Interest — Defence
+  url: https://nationalinterest.org/rss.xml
+  category: Strategic Affairs
+  priority: medium
+  tags:
+  - strategy
+  - geopolitics
+  - us-india
+  - international-relations
+  enabled: false
+- name: Observer Research Foundation (ORF)
+  url: https://www.orfonline.org/feed/
+  category: Geopolitics
+  priority: high
+  tags:
+  - think-tank
+  - india
+  - geopolitics
+  - strategy
+  enabled: false
+- name: Institute for Defence Studies and Analyses (IDSA)
+  url: https://idsa.in/rss-feed.xml
+  category: Geopolitics
+  priority: high
+  tags:
+  - think-tank
+  - india
+  - defence
+  - strategy
+  enabled: false
+- name: Vivekananda International Foundation (VIF)
+  url: https://www.vifindia.org/rss.xml
+  category: Geopolitics
+  priority: high
+  tags:
+  - think-tank
+  - india
+  - geopolitics
+  - security
+  enabled: false
+- name: Gateway House
+  url: https://www.gatewayhouse.in/feed/
+  category: Geopolitics
+  priority: high
+  tags:
+  - think-tank
+  - india
+  - foreign-policy
+  - geopolitics
+  enabled: true
+- name: South Asian Voices
+  url: https://southasianvoices.org/feed/
+  category: Geopolitics
+  priority: high
+  tags:
+  - south-asia
+  - geopolitics
+  - india-pakistan
+  - india-china
+  enabled: true
+- name: The Diplomat — South Asia
+  url: https://thediplomat.com/regions/south-asia/feed/
+  category: Geopolitics
+  priority: high
+  tags:
+  - south-asia
+  - geopolitics
+  - india
+  - pakistan
+  - china
+  enabled: true
+- name: The Diplomat — Security
+  url: https://thediplomat.com/topics/security/feed/
+  category: National Security
+  priority: high
+  tags:
+  - security
+  - asia-pacific
+  - indo-pacific
+  enabled: true
+- name: Asia Times
+  url: https://asiatimes.com/feed/
+  category: Geopolitics
+  priority: medium
+  tags:
+  - asia
+  - geopolitics
+  - china
+  - india
+  - military
+  enabled: true
+- name: The Wire — National Security
+  url: https://thewire.in/security/feed
+  category: National Security
+  priority: medium
+  tags:
+  - india
+  - security
+  - government
+  enabled: false
+- name: Foreign Policy
+  url: https://foreignpolicy.com/feed/
+  category: International Relations
+  priority: high
+  tags:
+  - foreign-policy
+  - geopolitics
+  - global
+  - analysis
+  enabled: true
+- name: Belfer Center — Geopolitics
+  url: https://www.belfercenter.org/rss.xml
+  category: Strategic Affairs
+  priority: medium
+  tags:
+  - think-tank
+  - strategy
+  - nuclear
+  - geopolitics
+  enabled: false
+- name: Al Jazeera — Asia Pacific
+  url: https://www.aljazeera.com/xml/rss/all.xml
+  category: International Relations
+  priority: medium
+  tags:
+  - geopolitics
+  - asia
+  - middle-east
+  - global
+  enabled: true
+- name: The Hindu — National
+  url: https://www.thehindu.com/news/national/feeder/default.rss
+  category: National Affairs
+  priority: medium
+  tags:
+  - india
+  - national
+  - security
+  - political
+  enabled: true
+- name: The Hindu — International
+  url: https://www.thehindu.com/news/international/feeder/default.rss
+  category: International Relations
+  priority: medium
+  tags:
+  - international
+  - geopolitics
+  - foreign-policy
+  enabled: true
+- name: Hindustan Times — India
+  url: https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml
+  category: National Affairs
+  priority: medium
+  tags:
+  - india
+  - national
+  - security
+  enabled: true
+- name: Indian Express — India
+  url: https://indianexpress.com/section/india/feed/
+  category: National Affairs
+  priority: medium
+  tags:
+  - india
+  - national
+  - political
+  - security
+  enabled: true
+- name: Indian Express — World
+  url: https://indianexpress.com/section/world/feed/
+  category: International Relations
+  priority: medium
+  tags:
+  - international
+  - geopolitics
+  enabled: true
+- name: Business Standard — Defence
+  url: https://www.business-standard.com/rss/defence-2.rss
+  category: Defence
+  priority: medium
+  tags:
+  - defence
+  - procurement
+  - india
+  enabled: false
+- name: Livemint — Politics & Policy
+  url: https://www.livemint.com/rss/politicsRSS
+  category: National Affairs
+  priority: low
+  tags:
+  - india
+  - policy
+  - government
+  enabled: true
+- name: Reuters — World News
+  url: https://feeds.reuters.com/reuters/worldNews
+  category: International Relations
+  priority: medium
+  tags:
+  - global
+  - geopolitics
+  - india
+  - conflict
+  enabled: false
+- name: Reuters — Top News
+  url: https://feeds.reuters.com/reuters/topNews
+  category: International Relations
+  priority: medium
+  tags:
+  - global
+  - top-news
+  enabled: false
+- name: BBC News — World
+  url: https://feeds.bbci.co.uk/news/world/rss.xml
+  category: International Relations
+  priority: medium
+  tags:
+  - global
+  - geopolitics
+  - conflict
+  enabled: true
+- name: BBC News — Asia
+  url: https://feeds.bbci.co.uk/news/world/asia/rss.xml
+  category: Geopolitics
+  priority: high
+  tags:
+  - asia
+  - south-asia
+  - india
+  - china
+  - pakistan
+  enabled: true
+- name: The Hindu — Science & Technology
+  url: https://www.thehindu.com/sci-tech/science/feeder/default.rss
+  category: Defence Technology
+  priority: low
+  tags:
+  - technology
+  - science
+  - defence-tech
+  enabled: true
+- name: Economic Times — Technology
+  url: https://economictimes.indiatimes.com/news/science/rss.cms
+  category: Defence Technology
+  priority: low
+  tags:
+  - technology
+  - science
+  - defence-tech
+# D-P2-21 Additional Defence Sources (merged from Multi-Source Ingestion Framework)
+- name: Indian Defence Research Wing (IDRW)
+  url: https://idrw.org/feed
+  category: Defence
+  priority: high
+  tags:
+  - defence
+  - military
+  - india
+  - p2-source
+  enabled: true
+- name: National Defence India
+  url: https://nationaldefence.in/feed
+  category: Defence
+  priority: high
+  tags:
+  - defence
+  - security
+  - india
+  - p2-source
+  enabled: true
+- name: Broadsword (Ajai Shukla)
+  url: https://ajaishukla.blogspot.com/feeds/posts/default
+  category: Defence
+  priority: high
+  tags:
+  - defence
+  - analysis
+  - india
+  - p2-source
+  enabled: true
+- name: Firstpost Defence
+  url: https://www.firstpost.com/rss/defence.xml
+  category: Defence
+  priority: high
+  tags:
+  - defence
+  - military
+  - india
+  - p2-source
+  enabled: true

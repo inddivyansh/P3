@@ -1,0 +1,149 @@
+# AI-Powered Defence & Geopolitical Intelligence Platform
+# Multi-label taxonomy for article classification
+
+# Primary categories (multi-label — an article can have multiple)
+primary_categories:
+  - Defence
+  - Military
+  - National Security
+  - Geopolitics
+  - International Relations
+  - Foreign Policy
+  - Border Security
+  - Internal Security
+  - Terrorism & Insurgency
+  - Defence Technology
+  - Cybersecurity
+  - Defence Procurement
+  - Military Exercise
+  - Strategic Infrastructure
+  - Maritime Security
+  - Aerospace
+  - Space & Defence
+  - Diplomatic Affairs
+  - Strategic Affairs
+  - Other Relevant
+
+# Sub-categories (more granular — mapped under primary categories)
+sub_categories:
+  Defence:
+    - Procurement
+    - Military Exercise
+    - Defence Technology
+    - Personnel
+    - Infrastructure
+    - Operations
+    - Defence Diplomacy
+    - Weapons Systems
+    - Air Defence
+    - Naval Affairs
+    - Land Forces
+    - Special Forces
+  Military:
+    - Army
+    - Navy
+    - Air Force
+    - Joint Operations
+    - Military Leadership
+    - Doctrine
+  National Security:
+    - Internal Security
+    - Border Security
+    - Counterterrorism
+    - Intelligence
+    - Critical Infrastructure
+  Geopolitics:
+    - Indo-Pacific
+    - South Asia
+    - Middle East
+    - Central Asia
+    - Southeast Asia
+    - Europe
+    - Africa
+  International Relations:
+    - India-China
+    - India-Pakistan
+    - India-US
+    - India-Russia
+    - India-France
+    - India-Israel
+    - India-Japan
+    - India-Australia
+    - India-UK
+    - India-Nepal
+    - India-Bangladesh
+    - India-Myanmar
+    - India-Sri Lanka
+    - India-Maldives
+    - India-Iran
+    - India-ASEAN
+    - India-NATO
+    - UN Security
+  Defence Technology:
+    - Fighter Aircraft
+    - Missiles
+    - Drones & UAVs
+    - Naval Vessels
+    - Submarines
+    - Tanks & Armoured Vehicles
+    - Radar & Electronic Warfare
+    - Satellites
+    - Military AI
+    - Cyber Warfare
+
+# Threat levels (AI-generated analytical flags only)
+threat_levels:
+  - LOW
+  - MODERATE
+  - HIGH
+  - CRITICAL
+  - UNCLEAR
+
+# Strategic relevance levels
+relevance_levels:
+  - LOW
+  - MEDIUM
+  - HIGH
+  - UNCLEAR
+
+# Sentiment labels (defence-appropriate)
+sentiment_labels:
+  - Positive
+  - Negative
+  - Neutral
+  - Concern
+  - Critical
+  - Escalatory
+  - De-escalatory
+  - Unclear
+
+# Sentiment targets
+sentiment_targets:
+  - Government
+  - Organization
+  - Policy
+  - Country
+  - Military
+  - Event
+  - None
+
+# Event types for structured event extraction
+event_types:
+  - Military Exercise
+  - Border Incident
+  - Diplomatic Meeting
+  - Defence Contract
+  - Troop Deployment
+  - Security Incident
+  - Policy Announcement
+  - Defence Technology Launch
+  - International Agreement
+  - Terrorist Attack
+  - Ceasefire
+  - Conflict Escalation
+  - Conflict De-escalation
+  - Defence Procurement
+  - Leadership Change
+  - Military Deployment
+  - Intelligence Activity
+  - Humanitarian Operation

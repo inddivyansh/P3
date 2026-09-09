@@ -1,0 +1,64 @@
+[project]
+name = "defence-geopolitical-intelligence-platform"
+version = "2.0.0"
+description = "AI-Powered Defence & Geopolitical Intelligence Platform with Multi-Source Ingestion and RAG Chat Interface"
+requires-python = ">=3.10"
+dependencies = [
+  # Ingestion & Scraping
+  "feedparser>=6.0.10",
+  "requests>=2.31.0",
+  "trafilatura>=1.6.0",
+  "beautifulsoup4>=4.12.0",
+  "pyyaml>=6.0.0",
+
+  # D-P2-21 Multi-Source Ingestion Framework
+  "sqlalchemy>=2.0.0",
+  "python-json-logger>=2.0.7",
+  "tenacity>=8.2.0",
+
+  # Schema & Configuration
+  "pydantic>=2.0.0",
+  "pydantic-settings>=2.2.0",
+  "python-dotenv>=1.0.0",
+
+  # Machine Learning & NLP
+  "sentence-transformers>=2.3.0",
+  "transformers>=4.36.0",
+  "torch>=2.1.0",
+  "scikit-learn>=1.3.0",
+  "pandas>=2.1.0",
+  "numpy>=1.26.0",
+  "spacy>=3.7.0",
+
+  # Generative AI & Vector Search
+  "google-generativeai>=0.8.0",
+  "chromadb>=0.5.0",
+
+  # FastAPI Backend Server
+  "fastapi>=0.110.0",
+  "uvicorn[standard]>=0.28.0",
+  "python-multipart>=0.0.9",
+  "httpx>=0.27.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+  "pytest-cov>=4.1.0",
+  "pytest-mock>=3.12.0",
+  "ruff>=0.4.0",
+  "black>=24.0.0",
+]
+
+intelligence = [
+  # spaCy NER models — install separately:
+  # python -m spacy download en_core_web_sm
+  # python -m spacy download en_core_web_lg
+]
+
+[tool.pytest.ini_options]
+pythonpath = [".", "src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100

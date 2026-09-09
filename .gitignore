@@ -1,0 +1,146 @@
+# ==============================================================================
+# AI-Powered Defence & Geopolitical Intelligence Platform — .gitignore
+# Master repository ignore configuration
+# ==============================================================================
+
+# ── Python & Bytecode ─────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ── Virtual Environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ── Testing, Coverage & Linting ───────────────────────────────────────────────
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+htmlcov/
+
+# ── Node.js & Frontend Build (React / Vite) ───────────────────────────────────
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.vite/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ── Environment & Secrets ─────────────────────────────────────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+*.pem
+*.key
+
+# ── Databases & Storage ───────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-journal
+
+# Preserve directory structure with .gitkeep
+data/database/*
+!data/database/.gitkeep
+
+data/p2_raw_store/*
+!data/p2_raw_store/.gitkeep
+
+data/p2_dlq/*
+!data/p2_dlq/.gitkeep
+
+data/vector_store/*
+!data/vector_store/.gitkeep
+
+# ── Raw & Processed Datasets ──────────────────────────────────────────────────
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+data/external/*
+!data/external/.gitkeep
+
+# ── Model Checkpoints & Weights ───────────────────────────────────────────────
+models/*
+!models/.gitkeep
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.onnx
+
+# ── Output Briefings & Evaluation ─────────────────────────────────────────────
+outputs/digests/*
+!outputs/digests/.gitkeep
+
+outputs/evaluation/*
+!outputs/evaluation/.gitkeep
+
+# ── Logs & Telemetry ──────────────────────────────────────────────────────────
+logs/*
+!logs/.gitkeep
+!logs/p2_ingestion/.gitkeep
+*.log
+
+# ── Operating System Artifacts ────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+ehthumbs_vista.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ── Editors & IDEs ────────────────────────────────────────────────────────────
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
